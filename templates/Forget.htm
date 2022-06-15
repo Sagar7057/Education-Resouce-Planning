@@ -1,0 +1,128 @@
+{% extends 'base.htm' %}
+{% block body %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+	<title></title>
+	<script type="text/javascript"></script>
+    <style>
+    .all4{
+    margin-top: 120px;
+    margin-left: 350px;
+    }
+    .reg4{
+    margin-left: 100px;
+    align-content: center;
+    width: 700px;
+    }
+    .fname4{
+    margin-left: 29px;
+    top: 1px;
+    line-height: 30px;
+    padding: 0px 10px;
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+.fname4:focus{
+    outline: none;
+}
+.username4 i{
+    position: absolute;
+    margin-left: 25px;
+    padding: 5px;
+
+}
+.password i{
+    position: absolute;
+    margin-left: 25px;
+    padding: 5px;
+
+}
+.reg-form4{
+    margin-left: 0;
+}
+.button4{
+    background-color: #71d398;
+    border-color: #71d398;
+    display: block;
+    height: 40px;
+    width: 100px;
+    margin-left: 130px;
+    text-align: center;
+    border: 2px solid #366473;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 20px;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+.form-title4{
+    font-weight: 1000;
+    font-family: "Poppins", sans-serif;  
+}
+.butt4{
+    margin-top: 10px;
+}
+.img4{
+    margin-left: 330px;
+    margin-top: -380px;
+    
+    
+} 
+
+
+    </style>
+</head>
+<body>
+    <div class="all4">
+        <section class="reg4" >
+            <div class="shadow p-3 mb-5 bg-white rounded">
+                <div class="container mt-0">
+                    <div class="reg-content4">
+                        <div class="reg-form04">
+                            <br/><h2 class="form-title4" align="left">Forgot Password</h2><br/>
+                            <form class="reg-form4" id="reg-form1" align="left">
+                                <div class="username4">
+                                    <i class="fas fa-user"></i>
+                                    <input placeholder="ID" type="text" id="clgid" name="College ID" class="fname4" />
+                                </div><br/>
+                                <div class="username4">
+                                    <i class="fas fa-lock"></i>
+                                    <input placeholder="password" type="password" id="clgid" name="College ID" class="fname4" />
+                                </div><br/>
+                                <div class="password">
+                                    <i class="fas fa-lock"></i>
+                                    <input placeholder="Confirm Password" type="password" id="clgid" name="College ID" class="fname4" />
+                                </div><br/>
+                                <div class="butt4">
+                                    <input type="submit" name="submit" value="Submit" class="button4"/>
+                                </div>
+                                <div class="img4" align="left">
+                                    <br><br>
+                                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+                                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_z3pnisgt.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                                </div>
+                                               
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
+{% 	endblock body %}
+
+
