@@ -50,3 +50,15 @@ From this we will predict the ['G3'] value that is next [semester] value.
 
 ## Algorithm use for prediction
 WE used [linear_regression] model to predict the data
+
+
+##User Interface:-
+![image](https://user-images.githubusercontent.com/106653594/183276487-440e4664-cdb9-4e26-95ba-5e098d126964.png)
+![image](https://user-images.githubusercontent.com/106653594/183276502-0de6475c-8c09-4f11-a554-a1796f8c8834.png)
+![image](https://user-images.githubusercontent.com/106653594/183276508-5f5e0ed0-a07f-4106-b88e-88d078a3e02c.png)
+![image](https://user-images.githubusercontent.com/106653594/183276523-753a05e4-5bc9-4bfa-9a2a-b6baab0c63ba.png)
+![image](https://user-images.githubusercontent.com/106653594/183276534-22369aa5-9295-4734-ac41-16383075cfd3.png)
+
+
+
+
